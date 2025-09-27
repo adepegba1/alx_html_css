@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ====== HEADER SECTION ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.navigation {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.navigation li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* ====== HERO SECTION ===== */
+
+.hero {
+  background-image: url(images/Object.png);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.schooled h1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.schooled span {
+  margin: 0 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.schooled button {
+  margin-top: 20px;
+  color: white;
+  border-radius: 25px;
+  padding: 15px 40px;
+  background-color: purple;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin-left: 30%;
+}
+.schooled {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+/* ===== HERO CONTENT (Learn from the pros) ===== */
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.hero-content > div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.hero-content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.hero-content h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 12px;
+  color: #ccc;
+}
