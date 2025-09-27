@@ -43,6 +43,7 @@ header {
   color: white;
   text-align: center;
 }
+/* ==== HERO SCHOOLED ==== */
 .schooled h1 {
   font-size: 100px;
   font-weight: bold;
@@ -107,4 +108,22 @@ header {
 .hero-content p {
   font-size: 12px;
   color: #ccc;
+}
+
+/* ==== QUOTES ==== */
+.quotes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: purple;
+  color: white;
+  padding: 5%;
+  line-height: 1.5;
+}
+.quotes img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
