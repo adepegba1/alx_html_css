@@ -47,7 +47,4 @@ It demonstrates advanced layout techniques and responsive styling by creating a 
 
 ## Live Preview
 
-<!--
-- <a href="https://adepegba1.github.io/alx_html_css/css_advanced/index.html" target="_blank">Click Me</a> -->
-
-- <iframe src="https://adepegba1.github.io/alx_html_css/css_advanced/index.html" target="_blank" title="Homepage"></iframe>
+- <a href="https://adepegba1.github.io/alx_html_css/css_advanced/index.html" target="_blank">Click Me</a>
