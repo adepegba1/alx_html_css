@@ -30,4 +30,5 @@ It demonstrates advanced layout techniques and responsive styling by creating a 
 - Font Awesome – For icons (stars, social media, play button).
 
 ## Live Preview
-<a href="">Clcik Me</a>
+
+<a href="https://adepegba1.github.io/alx_html_css/css_advanced/index.html">Clcik Me</a>
