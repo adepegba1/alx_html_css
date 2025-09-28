@@ -1,5 +1,5 @@
 :root {
-  --purple-coloe: purple;
+  --purple-color: purple;
   --white-color: white;
   --black-color: black;
 }
@@ -29,7 +29,7 @@ header {
 }
 
 .navigation li a {
-  color: white;
+  color: var(--white-color);
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
@@ -45,7 +45,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: var(--white-color);
   text-align: center;
 }
 /* ==== HERO SCHOOLED ==== */
@@ -61,10 +61,10 @@ header {
 }
 .schooled button {
   margin-top: 20px;
-  color: white;
+  color: var(--white-color);
   border-radius: 25px;
   padding: 15px 40px;
-  background-color: purple;
+  background-color: var(--purple-color);
   font-size: 16px;
   cursor: pointer;
   display: block;
@@ -85,7 +85,7 @@ header {
 
 .hero-content h2 {
   font-size: 24px;
-  color: white;
+  color: var(--white-color);
   margin-bottom: 40px;
 }
 
@@ -106,12 +106,12 @@ header {
 .hero-content h3 {
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: var(--white-color);
 }
 
 .hero-content p {
   font-size: 12px;
-  color: #ccc;
+  color: var(--white-color);
 }
 
 /* ==== QUOTES ==== */
@@ -119,8 +119,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #bb80d0;
-  color: white;
+  background-color: var(--purple-color);
+  color: var(--white-color);
   padding: 5%;
   line-height: 1.5;
 }
@@ -158,13 +158,13 @@ header {
 }
 .icon h4 {
   padding-left: 5px;
-  color: #bb80d0;
+  color: var(--purple-color);
 }
 
 .rating {
   display: flex;
   justify-content: space-between;
-  color: #bb80d0;
+  color: var(--purple-color);
   padding-right: 10px;
 }
 .star {
@@ -191,8 +191,8 @@ header {
   display: grid;
   padding: 5% 10%;
   grid-template-rows: repeat(3, 1fr);
-  background-color: black;
-  color: white;
+  background-color: var(--black-color);
+  color: var(--white-color);
   align-items: center;
   justify-content: center;
   line-height: 1.5;
@@ -207,10 +207,10 @@ header {
   padding: 5%;
 }
 .membership button {
-  color: white;
+  color: var(--white-color);
   border-radius: 25px;
   padding: 15px 40px;
-  background-color: purple;
+  background-color: var(--purple-color);
   font-size: 16px;
   cursor: pointer;
   text-align: center;
@@ -241,4 +241,22 @@ header {
 }
 .paragraph {
   padding-bottom: 5%;
+}
+
+/* ==== FOOTER ==== */
+.footer {
+  display: grid;
+  grid-template-rows: 100px 50px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 0 10%;
+}
+#footer-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-self: center;
+}
+.footer p {
+  text-align: center;
 }
