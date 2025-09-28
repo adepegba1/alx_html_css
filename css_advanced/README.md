@@ -31,4 +31,4 @@ It demonstrates advanced layout techniques and responsive styling by creating a 
 
 ## Live Preview
 
-<a href="https://adepegba1.github.io/alx_html_css/css_advanced/index.html">Clcik Me</a>
+<a href="https://adepegba1.github.io/alx_html_css/css_advanced/index.html" target="_blank">Clcik Me</a>
