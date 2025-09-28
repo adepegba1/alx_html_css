@@ -65,10 +65,10 @@ This project helped me:
 
 ## 👨‍💻 Author
 
-<p>Adepegba David</p>
+- Adepegba David
 
-<p><a href="https://www.linkedin.com/in/adepegbadavid1">LinkedIn</a></p>
+- <a href="https://www.linkedin.com/in/adepegbadavid1">LinkedIn</a>
 
 ## Live Preview
 
-<a href="https://adepegba1.github.io/alx_html_css/css_basic/index.html" target="_blank">Click Me</a>
+- <a href="https://adepegba1.github.io/alx_html_css/css_basic/index.html" target="_blank">Click Me</a>
