@@ -1,22 +1,33 @@
-# Learning Objectives
+# 🎨 Advanced CSS Project – Smile School
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+This project is a front-end web design built with HTML5 and CSS3.
+It demonstrates advanced layout techniques and responsive styling by creating a fictional website called Smile School, featuring courses, pricing, testimonials, and more.
 
-## General
+## 📌 Features
 
-- What is CSS
-- How to add style to an element
-- What is a class
-- What is a selector
-- How to compute CSS Specificity Value
-- What are Box properties in CSS
-- How does the browser load a webpage
+- **Responsive Header & Navigation** – Logo, Courses, Pricing, Login links.
 
-## Requirements
+- **Hero Section** – Eye-catching background, headline, and call-to-action button.
 
-### General
+- **Instructor Section** – "Learn from the pros" with circular profile images.
 
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project is mandatory
-- You are not allowed to install, import or use external libraries. This website must be build with only HTML/CSS/JavaScript. No NodeJS, React, VueJS, Bootstrap, etc.
-- Your code should be W3C compliant and validate with W3C-Validator
+- **Quotes Section** – Styled blockquote with avatar.
+
+- **Video Tutorials Section** – Grid of video cards with play icons, ratings, and duration.
+
+- **Membership Section** – Free membership highlights with icon and button.
+
+- **FAQ Section** – Frequently asked questions in a two-column layout.
+
+- **Footer Section** – Logo, social media icons, and copyright notice.
+
+## 🛠️ Technologies Used
+
+- HTML5 – Semantic structure for web content.
+
+- CSS3 – Advanced styling with grid, flexbox, variables, and responsive design.
+
+- Font Awesome – For icons (stars, social media, play button).
+
+## Live Preview
+<a href="">Clcik Me</a>
