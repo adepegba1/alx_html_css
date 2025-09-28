@@ -29,6 +29,25 @@ It demonstrates advanced layout techniques and responsive styling by creating a 
 
 - Font Awesome – For icons (stars, social media, play button).
 
+## 🎯 Learning Objectives
+
+- Apply CSS Grid and Flexbox for modern layouts.
+
+- Use CSS variables for consistent theming.
+
+- Integrate external icon libraries.
+
+- Practice building a multi-section landing page.
+
+## 👨‍💻 Author
+
+- Adepegba David
+
+- <a href="https://www.linkedin.com/in/adepegbadavid1">LinkedIn</a>
+
 ## Live Preview
 
-<a href="https://adepegba1.github.io/alx_html_css/css_advanced/index.html" target="_blank">Clcik Me</a>
+<!--
+- <a href="https://adepegba1.github.io/alx_html_css/css_advanced/index.html" target="_blank">Click Me</a> -->
+
+- <iframe src="https://adepegba1.github.io/alx_html_css/css_advanced/index.html" target="_blank" title="Homepage"></iframe>
