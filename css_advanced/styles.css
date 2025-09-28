@@ -75,27 +75,27 @@ header {
   top: 100px;
   text-align: center;
 }
-/* ===== HERO CONTENT (Learn from the pros) ===== */
-.hero-content {
+/* ===== INSTRUCTORS ===== */
+.instructors {
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-.hero-content h2 {
+.instructors h2 {
   font-size: 24px;
   color: var(--white-color);
   margin-bottom: 40px;
 }
 
-.hero-content > div {
+.instructors > div {
   display: flex;
   justify-content: space-evenly;
   gap: 40px;
 }
 
-.hero-content img {
+.instructors img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -103,13 +103,13 @@ header {
   margin-bottom: 10px;
 }
 
-.hero-content h3 {
+.instructors h3 {
   font-size: 16px;
   font-weight: bold;
   color: var(--white-color);
 }
 
-.hero-content p {
+.instructors p {
   font-size: 12px;
   color: var(--white-color);
 }
