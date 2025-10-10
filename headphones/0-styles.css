@@ -39,9 +39,10 @@ header img {
 }
 .content h1 {
   padding: 0 25%;
+  font-size: 20px;
 }
 .content p {
-  font-size: 14px;
+  font-size: 12px;
   padding: 0 25%;
 }
 .content button {
@@ -53,11 +54,4 @@ header img {
 }
 .content button:hover {
   opacity: 0.9;
-}
-@media (max-width: 480px) {
-  .navigation {
-    display: none;
-  }
-  header {
-  }
 }
