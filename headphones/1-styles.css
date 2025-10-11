@@ -1,9 +1,11 @@
+/* ===== ALL TAGS ==== */
 * {
   max-width: 1000px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* ==== HEADER SECTION ===== */
 header {
   display: flex;
   align-items: center;
@@ -15,7 +17,7 @@ header {
 header img {
   width: 200px;
 }
-
+/* ==== NAVIGATION ===== */
 .navigation {
   display: flex;
   gap: 70px;
@@ -28,23 +30,28 @@ header img {
 .navigation a:hover {
   color: #ff6565;
 }
+/* ==== HERO IMAGE ==== */
 .hero img {
   position: relative;
 }
+/* ==== HERO CONTENT ==== */
 .content {
   position: absolute;
   top: 40%;
   text-align: center;
   color: white;
 }
+/* ==== HERO CONTENT H1 ===== */
 .content h1 {
   padding: 0 25%;
   font-size: 20px;
 }
+/* ==== HERO CONTENT PARAGRAPH ===== */
 .content p {
   font-size: 12px;
   padding: 0 25%;
 }
+/* ==== HERO CONTENT BUTTON ==== */
 .content button {
   margin: 5% 0;
   border-radius: 20px;
@@ -55,6 +62,7 @@ header img {
 .content button:hover {
   opacity: 0.9;
 }
+/* ==== WHAT WE DO SECTION ===== */
 .section-page {
   display: flex;
   flex-direction: column;
@@ -65,6 +73,7 @@ header img {
   margin-top: 5%;
   margin-bottom: 2.5%;
 }
+/* ==== CONTAINER OF ICONS ==== */
 .box {
   display: grid;
   grid-template-columns: repeat(4, 2fr);
@@ -76,6 +85,7 @@ header img {
   width: 50px;
   height: auto;
 }
+/* ===== ICONS ===== */
 .icons {
   display: flex;
   justify-content: center;
