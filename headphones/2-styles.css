@@ -132,10 +132,10 @@ header img {
 .data h3 {
   font-size: 3rem;
   padding: 3rem;
-  margin-top: 2rem;
 }
 .data p {
   font-size: 0.8rem;
+  margin-bottom: 2rem;
 }
 #star {
   display: flex;
