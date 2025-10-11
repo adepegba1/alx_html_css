@@ -90,7 +90,7 @@ header img {
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   justify-content: center;
-  margin: 0 2rem;
+  margin: 3rem 2rem;
 }
 .box img {
   width: 50px;
@@ -119,30 +119,30 @@ header img {
   color: white;
 }
 .pen {
-  background: url(images/pentagone.png) no-repeat center / cover;
-  width: 100%;
-  height: auto;
+  position: relative;
+  display: flex;
+}
+.pen img {
+  width: 150px;
 }
 .data {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .data h3 {
   font-size: 3rem;
-  padding: 3rem;
+  margin-top: 3rem;
 }
 .data p {
   font-size: 0.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 #star {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* ==== CONTACT US ===== */
@@ -217,14 +217,51 @@ footer {
   text-align: center;
   font-size: 0.5rem;
 }
+
+.pentagon-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.pentagon {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  background-color: #ff6565;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pentagon-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.percentage {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+}
+
+/* Tablet view */
 @media (max-width: 768px) {
-  html {
-    font-size: 10px;
+  .pentagon-container {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .navigation {
-    display: none;
-  }
-  .box {
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .pentagon-container {
     grid-template-columns: 1fr;
   }
 }
