@@ -1,0 +1,158 @@
+/* ===== ALL TAGS ==== */
+* {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+}
+/* ==== HEADER SECTION ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+header img {
+  width: 200px;
+}
+/* ==== NAVIGATION ===== */
+.navigation {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: #ff6565;
+}
+/* ==== HERO IMAGE ==== */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(images/headphones_hero_1.jpg) no-repeat center / cover;
+  color: white;
+}
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container .info h1 {
+  font-size: 1.6rem;
+  margin-top: 12rem;
+}
+.container .info p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.container .info button {
+  padding: 0.5rem;
+  color: white;
+  background-color: #ff6565;
+  border-radius: 2rem;
+  border: 0;
+  margin-bottom: 4rem;
+}
+.container .info button:hover {
+  opacity: 0.9;
+}
+
+/* ==== WHAT WE DO SECTION ===== */
+.section-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+.section-page h2 {
+  margin: 5rem 0 2rem 0;
+}
+.section-page p {
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+/* ==== CONTAINER OF ICONS ==== */
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  justify-content: center;
+  margin: 0 2rem;
+}
+.box img {
+  width: 50px;
+  height: auto;
+}
+/* ===== ICONS ===== */
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.icons p {
+  font-size: 0.8rem;
+  text-align: left;
+  margin: 0 1rem;
+}
+
+/* === OUR RESULT SECTION === */
+#hero-2 {
+  background: url(images/headphones_hero_2.jpg) no-repeat center / cover;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+.pen {
+  background: url(images/pentagone.png) no-repeat center / cover;
+  width: 100%;
+  height: auto;
+}
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.data h3 {
+  font-size: 3rem;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+.data p {
+  font-size: 0.8rem;
+}
+#star {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .navigation {
+    display: none;
+  }
+  .box {
+    grid-template-columns: 1fr;
+  }
+}
