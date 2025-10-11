@@ -73,8 +73,14 @@ header img {
   margin: 5% 0;
 }
 .box img {
-  width: 68px;
+  width: 50px;
   height: auto;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 p,
@@ -83,12 +89,7 @@ h3 {
   text-align: center;
   padding: 5px;
 }
-.icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+
 @media (max-width: 480px) {
   .navigation {
     display: none;
