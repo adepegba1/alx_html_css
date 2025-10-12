@@ -86,12 +86,21 @@ nav .navigation a:hover {
 
 /* ==== WHAT WE DO SECTION ===== */
 .section-page {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
+  text-align: center;
+  width: 90% */
+  width: 90%;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .section-page:hover {
