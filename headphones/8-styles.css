@@ -141,30 +141,35 @@ nav .navigation a:hover {
 #hero-2 {
   background: url(images/headphones_hero_2.jpg) no-repeat center / cover;
   width: 100%;
-  height: 80vh;
+  height: auto;
   color: white;
+  padding-bottom: 2rem;
 }
 .pen {
   position: relative;
-  display: flex;
+  display: inline-block;
+  text-align: center;
 }
 .pen img {
+  max-width: 100%;
   width: 150px;
+  height: auto;
+  display: block;
 }
-.data {
+.pen .data {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.data h3 {
+.pen .data h3 {
   font-size: 3rem;
-  margin-top: 3rem;
+  margin: 0;
 }
-.data p {
-  font-size: 0.8rem;
-  margin-bottom: 3rem;
+.pen .data p {
+  font-size: 1rem;
+  margin: 0;
 }
 #star {
   display: grid;
@@ -257,12 +262,6 @@ footer {
     content: "❌";
   }
 
-  /* .header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 1rem;
-  } */
   #menu {
     display: block;
   }
@@ -283,15 +282,16 @@ footer {
 
 /* Mobile view */
 @media (max-width: 480px) {
-  #star {
-    grid-template-columns: 1fr;
-  }
+  #star,
   .box {
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    gap: 1.5rem;
   }
-  .hero-2 {
-    height: auto;
+  .pen .data h3 {
+    font-size: 2rem;
+  }
+  .pen .data p {
+    font-size: 0.44rem;
   }
   .pen img {
     width: 100px;
