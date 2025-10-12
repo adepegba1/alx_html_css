@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7. Let's animate items</title>
+    <link rel="stylesheet" href="8-styles.css">
+    <script src="8-script.js" defer></script>
+
+</head>
+
+<body>
+    <!-- === HEADER ===== -->
+    <header>
+        <button id="menu" aria-label="Open navigation"></button>
+        <img src="images/logo_headphones.png" alt="logo_headphones">
+
+        <nav>
+            <ul class="navigation">
+
+                <li><a href="#what-we-do">What we do</a></li>
+                <li><a href="#hero-2">Our result</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- ==== HERO CONTENT ===== -->
+        <section id="hero">
+            <div class="container">
+                <div class="info">
+                    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores!</p>
+                    <button>CALL TO ACTION</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quos facilis iste
+                        repellendus
+                        fuga
+                        distinctio tempora doloremque esse, cumque iusto nisi odio cum autem, accusamus sequi minima
+                        praesentium ducimus hic dolorem? Reiciendis tempore quos nisi amet minus, error nostrum,
+                        totam
+                        iure
+                        doloribus eaque excepturi iusto repudiandae.</p>
+                </div>
+            </div>
+        </section>
+        <!-- === WHAT WE DO SECTION ==== -->
+        <div class="section-page" id="what-we-do">
+            <h2>What we do...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tenetur exercitationem temporibus
+                perferendis. Nostrum nesciunt dolore, odio harum corporis possimus cupiditate praesentium eligendi
+                beatae. Eligendi, reiciendis illo omnis sequi doloribus quam corporis. Magnam sed explicabo, tempora
+                architecto error eveniet, necessitatibus consequatur ea deleniti earum veniam at debitis commodi rem
+                adipisci quidem vel?</p>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <img src="images/sound.svg" alt="">
+                <h3>Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="icons">
+                <img src="images/video.svg" alt="">
+                <h3>Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="icons">
+                <img src="images/music.svg" alt="">
+                <h3>Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="icons">
+                <img src="images/ear.svg" alt="">
+                <h3>Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <!-- === OUR RESULT SECTION ===  -->
+        <section id="hero-2">
+            <div class="section-page">
+                <h2>Our results speak for themselves</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tenetur exercitationem
+                    temporibus
+                    perferendis. Nostrum nesciunt dolore, odio harum corporis possimus cupiditate praesentium
+                    eligendi
+                    beatae. Eligendi, reiciendis illo omnis sequi doloribus quam corporis. Magnam sed explicabo,
+                    tempora
+                    architecto error eveniet, necessitatibus consequatur ea deleniti earum veniam at debitis commodi
+                    rem
+                    adipisci quidem vel?</p>
+            </div>
+            <div id="star">
+                <section class="pen">
+                    <img src="images/pentagone.png" alt="pentagon">
+                    <div class="data">
+                        <h3>+2%</h3>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </section>
+                <section class="pen">
+                    <img src="images/pentagone.png" alt="pentagon">
+                    <div class="data">
+                        <h3>+2%</h3>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </section>
+                <section class="pen">
+                    <img src="images/pentagone.png" alt="pentagon">
+                    <div class="data">
+                        <h3>+2%</h3>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </section>
+                <section class="pen">
+                    <img src="images/pentagone.png" alt="pentagon">
+                    <div class="data">
+                        <h3>+2%</h3>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- ==== CONTACT US ===== -->
+        <section id="contact">
+            <form action="#" class="contact-us">
+                <fieldset>
+                    <legend>Contact us</legend>
+
+                    <label for="name">Name<span class="req">*</span><input type="text" name="name" id="name"
+                            required></label>
+                    <label for="email">Email<span class="req">*</span><input type="email" name="email" id="email"
+                            required></label>
+                    <label for="message">Your Message<span class="req">*</span><textarea name="message" id="message"
+                            required></textarea></label>
+
+                    <input type="button" value="CALL TO ACTION">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!-- ==== FOOTER ===== -->
+    <footer>
+        <div class="footer">
+            <img src="images/logo_headphones.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/twitter.svg" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <p id="currentyear"></p>
+        </div>
+
+    </footer>
+    <script>
+        const date = new Date();
+        const year = document.getElementById('currentyear');
+        year.innerHTML = `&copy;headphones ${date.getFullYear()}`
+    </script>
+
+</body>
+
+</html>
