@@ -54,7 +54,8 @@ nav .navigation a:hover {
   background: url(images/headphones_hero_1.jpg) no-repeat center / cover;
   color: white;
 }
-.container {
+.container, /* ==== WHAT WE DO SECTION ===== */
+.section-page {
   width: 90%;
   height: 100%;
   max-width: 500px;
@@ -86,22 +87,7 @@ nav .navigation a:hover {
 
 /* ==== WHAT WE DO SECTION ===== */
 .section-page {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: center;
-  width: 90% */
-  width: 90%;
-  height: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 .section-page:hover {
   animation: scale-up 0.5s ease-in-out;
