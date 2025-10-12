@@ -91,6 +91,8 @@ nav .navigation a:hover {
   align-items: center;
   flex-direction: column;
   max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
 }
 .section-page:hover {
   animation: scale-up 0.5s ease-in-out;
