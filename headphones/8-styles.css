@@ -114,6 +114,7 @@ nav .navigation a:hover {
   grid-template-columns: repeat(4, 2fr);
   justify-content: center;
   margin: 3rem 2rem;
+  align-items: center;
 }
 .box img {
   width: 50px;
@@ -248,12 +249,10 @@ footer {
 
 /* Tablet view */
 @media (max-width: 768px) {
-  #star {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
-  }
+  #star,
   .box {
     grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
   }
   #menu.open::before {
     content: "❌";
